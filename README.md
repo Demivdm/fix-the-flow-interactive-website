@@ -6,7 +6,8 @@ De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
 
 ## User Story
-<!-- Schrijf de user story waar je aan hebt gewerkt  -->
+
+Als gebruiker wil ik mijn gegevens kunnen opslaan, zodat ik mijn gegevens niet hoef te herhalen.
 
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
