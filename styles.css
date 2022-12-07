@@ -1,0 +1,43 @@
+body{
+    background-color: #4F52C9;
+    font-size: 8em;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin: .5em;
+    
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow: auto;
+    background-color: blueviolet;
+}
+
+
+.loginform{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: aliceblue;
+    margin-left: 1em;
+    margin-right: 1em;
+    height: 10em;
+    border-radius: 10%;
+    
+}
+.sizing{
+    max-width: 100%;
+}
+.boxhoogte{
+    height: 10em;
+    border-color: black;
+    margin:1em;
+}
+.submit{
+    margin: 1em;
+    font-size: 80px;
+}
