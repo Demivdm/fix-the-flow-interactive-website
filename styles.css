@@ -1,6 +1,6 @@
 body{
     background-color: #524dd0;
-    height: 100vh;
+    height: 1000vh;
     font-family: 'Rajdhani', sans-serif;
     font-size: 35px;
     margin: 0;
@@ -86,14 +86,26 @@ button{
     border-radius: 30px;
     border: 0;
     background-color: aqua;
+
+    
 }
 img{
     max-width: 200px;
 }
 
 .inleiding{
-    margin: 1%;
+    
+        background-image: 
+        linear-gradient(0deg,rgba(82, 77, 208, 0.5),
+        rgba(68, 0, 255, 0.5)),
+          url('assets/auto1.jpg');
+          color: white;
+          margin: 1%;
+    
+    
+
 }
+
 
 
 
