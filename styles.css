@@ -1,7 +1,10 @@
 body{
-    background-color: #4F52C9;
+    background-color: #524dd0;
     height: 100vh;
     font-family: 'Rajdhani', sans-serif;
+    font-size: 35px;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 a{
@@ -15,7 +18,7 @@ a{
     flex-direction: row;
     width: 100%;
     overflow: auto;
-    background-color: blueviolet;
+    background-color: #2b2969;
 }
 
 form{
@@ -72,14 +75,25 @@ form button {
     cursor: pointer;
 }
 
-#show-login{
+button{
     cursor: pointer;
+    font-size: 35px;
+    font-family: 'Rajdhani', sans-serif;
 }
 
+#show-login{
+    margin: 10px;
+    border-radius: 30px;
+    border: 0;
+    background-color: aqua;
+}
+img{
+    max-width: 200px;
+}
 
-
-
-
+.inleiding{
+    margin: 1%;
+}
 
 
 
