@@ -4,8 +4,9 @@
 <title>Coding the curbs</title>
 <meta name="description" content="Coding the curbs">
 <meta name="keywords" content="html tutorial template">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
-<script src="js.js"></script>
+<script src="js.js" defer></script>
 </head>
 <body>
 <header>
@@ -14,7 +15,7 @@
 
     <section class="navbar">
 
-        <a href="#inloggen">Inloggen</a>
+        <button id="show-login">Inloggen</button>
             <a href="#aanmelden">Aanmelden</a>
                 <a href="#services">Services</a>
                     <a href="#updates">Updates</a>
@@ -27,12 +28,27 @@
 <div>
     <h1>Coding the curbs</h1>
         <h2>Flatten the peak</h2>
-            <p>Tekst</p>
+            <p>Coding the Curbs spreads the use of available places and thus ensures that the scarce space in city centers is used better. Through better planning, 20% fewer kilometers are covered. logistic journeys become more effective.</p>
 </div>
 
 <button class="contactknop">Kom in contact</button>
 
 
+<div class="popup">
+
+<div class="sluitknop">&times</div>
+<form>
+    <h3>Inloggen</h3>
+        <label for="emailadres">Email-adres</label>
+            <input type="email" id="email" placeholder="Johndoe@email.com"  required>
+
+        <label for="wachtwoord">Wachtwoord</label>
+            <input type="password" id="Wachtwoord" placeholder="Wachtwoord"  required>
+                <button type="submit">Inloggen</button>
+
+</form>
+</div>
+<!--
 <div class="sizing">
 <form class="loginform" action="">
     
@@ -51,5 +67,6 @@
 </div>
             
 </form>
+-->
 </body>
 </html>

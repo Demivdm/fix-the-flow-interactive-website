@@ -1,6 +1,7 @@
 body{
     background-color: #4F52C9;
-    font-size: 8em;
+    height: 100vh;
+    font-family: 'Rajdhani', sans-serif;
 }
 
 a{
@@ -17,27 +18,73 @@ a{
     background-color: blueviolet;
 }
 
-
-.loginform{
+form{
+    background-color: aliceblue;
+    padding: 2vw 4vw;
     display: flex;
     flex-direction: column;
-    box-sizing: border-box;
-    background-color: aliceblue;
-    margin-left: 1em;
-    margin-right: 1em;
-    height: 10em;
-    border-radius: 10%;
-    
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
 }
-.sizing{
-    max-width: 100%;
-}
-.boxhoogte{
-    height: 10em;
-    border-color: black;
-    margin:1em;
-}
-.submit{
+
+form input, label{
     margin: 1em;
-    font-size: 80px;
 }
+
+form button {
+    padding: .5em;
+    margin: 20px auto 0;
+    background-color: aquamarine;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 18px;
+    width: 150px;
+}
+
+.popup {
+    position: absolute;
+    top: -150%;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1.25);
+    transition: top 0ms ease-in-out 200ms,
+                opacity 200ms ease-in-out 0ms,
+                transform 20ms ease-in-out 0ms;
+}
+
+.popup.active {
+    top: 50%;
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.25);
+    transition: top 0ms ease-in-out 0ms,
+                opacity 200ms ease-in-out 0ms,
+                transform 10ms ease-in-out 0ms;
+}
+
+.popup .sluitknop{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#show-login{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
