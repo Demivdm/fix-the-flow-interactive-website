@@ -1,8 +1,8 @@
 body{
     background-color: #524dd0;
-    height: 1000vh;
+    height: 100vh;
     font-family: 'Rajdhani', sans-serif;
-    font-size: 35px;
+    font-size: 40px;
     margin: 0;
     box-sizing: border-box;
 }
@@ -38,7 +38,7 @@ form input, label{
 form button {
     padding: .5em;
     margin: 20px auto 0;
-    background-color: aquamarine;
+    background-color: #00ffec;
     outline: none;
     border: 0;
     cursor: pointer;
@@ -85,7 +85,7 @@ button{
     margin: 10px;
     border-radius: 30px;
     border: 0;
-    background-color: aqua;
+    background-color: #00ffec;
 
     
 }
@@ -94,16 +94,8 @@ img{
 }
 
 .inleiding{
-    
-        background-image: 
-        linear-gradient(0deg,rgba(82, 77, 208, 0.5),
-        rgba(68, 0, 255, 0.5)),
-          url('assets/auto1.jpg');
-          color: white;
-          margin: 1%;
-    
-    
-
+    color: white;
+    margin: 5%;
 }
 
 
