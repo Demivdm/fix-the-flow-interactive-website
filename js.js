@@ -1,4 +1,3 @@
-console.log("why no work")
 
 document.querySelector("#show-login").addEventListener("click", function(){
     document.querySelector(".popup").classList.add("active");
@@ -6,3 +5,4 @@ document.querySelector("#show-login").addEventListener("click", function(){
 document.querySelector(" .popup .sluitknop").addEventListener("click", function(){
     document.querySelector(".popup").classList.remove("active");
 });
+
