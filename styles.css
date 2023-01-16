@@ -20,23 +20,41 @@ a{
     overflow: auto;
     background-color: #2b2969;
     
-
-    
 }
 
-form{
-    background-color: aliceblue;
-    padding: 2vw 4vw;
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    max-width: 600px;
-    border-radius: 10px;
-}
+form {
+    display:flex;
+    flex-direction:column;
+    transition: all .2s;
+    padding:1em;
+    background:HoneyDew;
+    width: 70%;
+    max-width: 35rem;
+    margin:0 auto;
+    overflow:hidden;
+    border-radius: 10%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  input{
+    height: 45px;
+    font-size: 1rem;
+    margin-bottom: 3%;
+  }
 
-form input, label{
-    margin: 1em;
-}
+  fieldset {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    margin-bottom: 1em;
+    border:none;
+    transition: all .2s;
+    padding:1em 1em 0;
+    background:honeydew;
+    position: relative;
+  }
 
 form button {
     padding: .5em;
@@ -50,31 +68,16 @@ form button {
     width: 150px;
 }
 
-.popup {
-    position: absolute;
-    top: -150%;
-    left: 50%;
-    opacity: 0;
-    transform: translate(-50%, -50%) scale(1.25);
-    transition: top 0ms ease-in-out 200ms,
-                opacity 200ms ease-in-out 0ms,
-                transform 20ms ease-in-out 0ms;
+label{
+    margin-bottom: 1rem;
+    font-size: 25px;
 }
 
-.popup.active {
-    top: 550px;
-    opacity: 1;
-    transform: translate(-50%, -50%) scale(1.25);
-    transition: top 0ms ease-in-out 0ms,
-                opacity 200ms ease-in-out 0ms,
-                transform 10ms ease-in-out 0ms;
-}
 
-.popup .sluitknop{
+.sluitknop{
     position: absolute;
-    top: 10px;
-    right: 0px;
-    font-size: 30px;
+    margin-left: 90%;
+    bottom: 90%;
     cursor: pointer;
 }
 
