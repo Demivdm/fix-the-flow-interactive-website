@@ -34,7 +34,7 @@ form {
     overflow:hidden;
     border-radius: 10%;
     position: absolute;
-    top: 60%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -74,7 +74,7 @@ label{
 }
 
 
-.sluitknop{
+.closeButton{
     position: absolute;
     margin-left: 90%;
     bottom: 90%;
@@ -87,16 +87,34 @@ button{
     font-family: 'Rajdhani', sans-serif;
 }
 
-#show-login{
+.popupForm{
+    display: none;
+}
+
+.popupAanmeldForm{
+    display: none;
+}
+
+
+.openButton{
     margin: 10px;
     border-radius: 30px;
     border: 0;
-    background-color: #00ffec;
+    background-color: #00ffec;   
+}
 
-    
+.openAanmeldButton{
+    background-color: #2b2969;
+    border: 0;
+    color: white;
 }
 img{
     max-width: 200px;
+}
+
+form button{
+    justify-content: center;
+    display: flex;
 }
 
 .inleiding{

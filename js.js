@@ -1,8 +1,16 @@
+function openForm() {
+    document.getElementById("popupForm").style.display = "block";
+  }
+  
+  function closeForm() {
+    document.getElementById("popupForm").style.display = "none";
+  }
 
-document.querySelector("#show-login").addEventListener("click", function(){
-    document.querySelector(".popup").classList.add("active");
-});
-document.querySelector(" .popup .sluitknop").addEventListener("click", function(){
-    document.querySelector(".popup").classList.remove("active");
-});
-
+  function openAanmeldForm() {
+    document.getElementById("popupAanmeldForm").style.display = "block";
+  }
+  
+  function closeAanmeldForm() {
+    document.getElementById("popupAanmeldForm").style.display = "none";
+  }
+ 
