@@ -27,7 +27,7 @@ form {
     flex-direction:column;
     transition: all .2s;
     padding:1em;
-    background:HoneyDew;
+    background: #a991fa;
     width: 70%;
     max-width: 35rem;
     margin:0 auto;
@@ -45,6 +45,7 @@ form {
   }
 
   fieldset {
+
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -52,7 +53,7 @@ form {
     border:none;
     transition: all .2s;
     padding:1em 1em 0;
-    background:honeydew;
+    background:#a991fa;
     position: relative;
   }
 

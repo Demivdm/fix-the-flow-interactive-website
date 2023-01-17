@@ -1,16 +1,26 @@
+// variabelen
+
+let popupInlog = document.getElementById("popupForm");
+let popupAanmeld = document.getElementById("popupAanmeldForm");
+
+
+
+
+// functies
+
 function openForm() {
-    document.getElementById("popupForm").style.display = "block";
+    popupInlog.style.display = "block";
   }
   
   function closeForm() {
-    document.getElementById("popupForm").style.display = "none";
+    popupInlog.style.display = "none";
   }
 
   function openAanmeldForm() {
-    document.getElementById("popupAanmeldForm").style.display = "block";
+    popupAanmeld.style.display = "block";
   }
   
   function closeAanmeldForm() {
-    document.getElementById("popupAanmeldForm").style.display = "none";
+    popupAanmeld.style.display = "none";
   }
  
