@@ -2,21 +2,15 @@
 Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. 
 De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+# Read me
+Voor Coding the curbs heb ik een inlog en aanmeld formulier gemaakt.
 
 ## User Story
 
 Als gebruiker wil ik mijn gegevens kunnen opslaan, zodat ik mijn gegevens niet hoef te herhalen.
 
-## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
-
-## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
-
+![image](https://user-images.githubusercontent.com/112861166/213152274-1755b21b-676a-4d2e-b926-43c6febf2d14.png)
+![image](https://user-images.githubusercontent.com/112861166/213152377-18faf899-4266-42a4-b19a-985727b170be.png)
 
 
 ## Licentie
