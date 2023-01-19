@@ -1,6 +1,3 @@
-> _Fork_ deze leertaak en ga aan de slag. 
-Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. 
-De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 # Read me
 Voor Coding the curbs heb ik een inlog en aanmeld formulier gemaakt.
@@ -9,8 +6,8 @@ Voor Coding the curbs heb ik een inlog en aanmeld formulier gemaakt.
 
 Als gebruiker wil ik mijn gegevens kunnen opslaan, zodat ik mijn gegevens niet hoef te herhalen.
 
-![image](https://user-images.githubusercontent.com/112861166/213152274-1755b21b-676a-4d2e-b926-43c6febf2d14.png)
-![image](https://user-images.githubusercontent.com/112861166/213152377-18faf899-4266-42a4-b19a-985727b170be.png)
+![sc2](https://user-images.githubusercontent.com/112861166/213398198-d90d049e-7953-4393-9fba-30de11d2b6d2.png)
+![sc1](https://user-images.githubusercontent.com/112861166/213398213-d377f8ed-5ca9-4cb6-ad09-10ae677d06a9.png)
 
 
 ## Licentie
