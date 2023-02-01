@@ -2,6 +2,7 @@
 # Coding the curbs interactieve website
 
 
+![phone mockup coding the curbs](https://user-images.githubusercontent.com/112861166/216025138-ad0938a9-4151-4069-9859-4accca442574.jpg)
 
 
 Dit project omvat een pagina met een inlogformulier en een aanmeldformulier voor Coding the curbs
@@ -25,7 +26,7 @@ Dit project omvat een pagina met een inlogformulier en een aanmeldformulier voor
 
 ## Opdrachtgever
 
-![21dd0d_7da2c1bb68a5420995fbdb3ae525e791_mv2](https://user-images.githubusercontent.com/112861166/216004560-18bdefea-4697-4053-8de6-4fd98e075fee.jpg)
+![ctc logo](https://user-images.githubusercontent.com/112861166/216025030-65a446c0-cd85-47c3-8784-1a36919ee3bf.jpg)
 
 Coding the Curbs spreidt het gebruik van beschikbare plekken en zorgt daardoor dat de schaarse ruimte in binnensteden beter wordt benut. Door het beter plannen worden er 20% minder kilometers afgelegd. Logistieke ritten worden effectiever. 
 
